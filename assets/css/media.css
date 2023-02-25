@@ -1,0 +1,157 @@
+@media only screen and (max-width: 600px) {
+
+html{
+    font-size: 7px;
+}
+
+header{
+    background-position: top;
+}
+
+header section:nth-of-type(1){
+    padding-left: 1%;
+}
+header section:nth-of-type(1) article {
+    padding-left: 30%;
+    color: white;
+}
+header section:nth-of-type(2){
+    flex-direction: column-reverse;
+}
+
+header section:nth-of-type(2) article{
+    padding: 9vh 0 3vh 8%;
+}
+
+header section:nth-of-type(2) article p:nth-of-type(1){
+    padding-right: 8%;
+}
+
+header section:nth-of-type(2) img{
+    width:70%;
+    padding-bottom: 0;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+
+/* ------- */
+
+main section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(2) h2:nth-of-type(1){
+    margin-right: 15%;
+    padding-bottom: 6%;
+}
+
+main section:nth-of-type(2) p{
+    line-height: 5rem;
+}
+
+main article:nth-of-type(1) h2{
+    margin: 15% 8% 15% 8%;
+}
+
+main section:nth-of-type(3){
+    margin-right: 8%;
+    flex-direction: column;
+}
+
+main section:nth-of-type(3) div{
+    justify-content: flex-start;
+}
+
+main section:nth-of-type(3) div article{
+    width:70vw;
+    padding-top: 3rem;
+}
+
+.ready{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 26%;
+}
+
+footer{
+    margin-left: 4%;
+    padding-top: 5%;
+}
+
+.stepEven{
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+#Steps .stepEven img {
+    margin-top: 5%;
+    width: 50%;
+    align-self: center;
+    margin-bottom: -4%;
+}
+
+#Steps .stepEven article {
+    padding-left: 0;
+}
+
+#Steps .stepEven article p{
+    margin-top: -3%;
+    padding-top: -3;
+}
+
+#Steps .stepEven article h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#Steps .stepEven article img{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+.stepUneven{
+    flex-direction: column-reverse;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+#Steps .stepUneven img {
+    margin-top: 5%;
+    width: 45%;
+    align-self: center;
+    margin-bottom: -4%;
+}
+
+#Steps .stepUneven article {
+    padding-left: 0;
+}
+
+#Steps .stepUneven article p{
+    margin-top: -3%;
+}
+
+#Steps .stepUneven article h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#Steps .stepUneven article img{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% auto 10% auto;
+}
+
+form div{
+    width:67vw;
+}
+
+}

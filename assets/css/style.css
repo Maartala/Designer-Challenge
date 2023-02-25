@@ -1,0 +1,333 @@
+/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto';
+    font-size: 10px;
+    background-color: #FFF ;
+}
+
+h2{
+    font-size: 7rem;
+    font-family: 'RobotoBold';
+}
+
+header{
+    background-image: url("../img/ilustracion1.png"); 
+    background-position: right;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+header section:nth-of-type(1){
+    display:flex;
+    padding-left: 2%;
+    padding-top: 2%;
+    width: 18%;
+}
+
+header section:nth-of-type(1) article {
+    padding-left: 20%;
+}
+
+header section:nth-of-type(1) img:nth-of-type(1){
+    width: 3.8rem;
+    position: fixed;
+}
+
+header section:nth-of-type(1) article h1:nth-of-type(1){
+    font-size: 2.5rem;
+    font-family: 'RobotoBold';
+}
+
+header section:nth-of-type(2){
+    display: flex;
+}
+
+header section:nth-of-type(2) article{
+    padding: 41vh 0 3vh 8%;
+    flex-basis: 300;
+}
+
+header section:nth-of-type(2) article p:nth-of-type(1){
+    font-size: 2.6rem;
+    padding-top: 4%;
+}
+
+header section:nth-of-type(2) article p:nth-of-type(2){
+    font-size: 1.6rem;
+    color: #ff3571 ;
+    padding-top: 14%;
+    margin-bottom: 5%;
+}
+
+header section:nth-of-type(2) img{
+    width:50%;
+    padding-bottom: 30%;
+}
+
+main img:nth-of-type(1){
+    margin-top: 8%;
+    width: 100vw;
+}
+
+main section:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+    margin-top: 15%;
+}
+
+main section:nth-of-type(2) h2:nth-of-type(1){
+    margin-right: 7%;
+}
+
+main section:nth-of-type(2) p{
+    font-size: 2.3rem;
+    width: 90%;
+    margin-right: 12%;
+    line-height: 4rem;
+}
+
+main h2:nth-of-type(2){
+    padding-top: 15%;
+}
+
+main article:nth-of-type(1) h2{
+    margin: 15% 30% 15% 8%;
+}
+
+main section:nth-of-type(3){
+    margin-left: 8%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main section:nth-of-type(3) div{
+    display: flex;
+    padding-bottom: 8%;
+}
+
+main section:nth-of-type(3) div img{
+    height: 5rem;
+    margin-top: 0;
+    width:10%
+}
+
+main section:nth-of-type(3) div article{
+    width:33vw;
+    padding-left: 5%;
+    padding-top: 2rem;
+}
+
+main section:nth-of-type(3) div h3{
+    font-family: 'RobotoBold';
+    font-size: 2.2rem;
+    padding-bottom: 2rem;
+}
+
+main section:nth-of-type(3) div p{
+    font-size: 2rem;
+    line-height:3.3rem;
+}
+
+.ready{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.ready p{
+    padding: 5% 17%;
+    font-size:2.6rem;
+    text-align: center;
+    line-height: 4.4rem;
+}
+
+.stepEven{
+    margin-left: 8%;
+    margin-top: 10%;
+    display: flex;
+}
+
+#Steps .stepEven img{
+    margin-top: 0;
+    width: 35%;
+}
+
+#Steps .stepEven article{
+    padding-left: 13%;
+    margin-right: 8%;
+
+}
+#Steps .stepEven article p:nth-of-type(1){
+    color: #ddddddb7  ;
+    font-family: 'RobotoBold';
+    font-size: 8rem;
+    padding-bottom: 7%;
+}
+
+#Steps .stepEven article img{
+    width: 5%;
+    padding-top:5%
+}
+
+#Steps .stepEven article h3{
+    padding: 3% 0;
+    font-family: 'RobotoBold';
+    font-size: 2.2rem;
+}
+
+#Steps .stepEven article p{
+    font-size: 2rem;
+    line-height: 3.3rem;
+}
+
+.stepUneven{
+    margin-left: 8%;
+    margin-top: 10%;
+    display: flex;
+}
+
+#Steps .stepUneven img{
+    margin-top: 0;
+    width: 35%;
+    margin-right: 8%;
+}
+
+#Steps .stepUneven article{
+    margin-right: 14%;
+
+}
+#Steps .stepUneven article p:nth-of-type(1){
+    color: #ddddddb7  ;
+    font-family: 'RobotoBold';
+    font-size: 8rem;
+    padding-bottom: 7%;
+}
+
+#Steps .stepUneven article img{
+    width: 5%;
+    padding-top:5%
+}
+
+#Steps .stepUneven article h3{
+    padding: 3% 0;
+    font-family: 'RobotoBold';
+    font-size: 2.2rem;
+}
+
+#Steps .stepUneven article p{
+    font-size: 2rem;
+    line-height: 3.3rem;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2% 20% 10% 20%;
+}
+
+main form #inputEmail{
+    align-self: center;
+    text-align: center;
+    padding: 2% 25%;
+    color: #dddddd;
+    font-size: 2.6rem;
+    border: 1px solid #dddddd7f;
+    border-radius: 5px;
+    margin-bottom: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 2px 2px 8px 5px #c7c6c6;
+}
+
+main form #subscribe{
+    color:#FFF;
+    font-size: 2.6rem;
+    align-self: center;
+    padding: 2.5% 16%;
+    background-color: #ff3571 ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+main form #subscribe:hover{
+    background: #FF3572;
+background: linear-gradient(to right, #FF3572, #3C30FF);
+}
+
+footer{
+    margin: 0 0 2% 8%;
+}
+
+footer p{
+    display: inline;
+    font-size: 2rem;
+}
+
+form div{
+    background-color: #FFF;
+    text-align: center;
+    line-height: 5rem;
+    width:50vw;
+    padding: 4% 4%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px 5px #c7c6c6;
+    border-radius: 5px;
+    display:none; 
+    transform: translate(0, -50%);
+}
+
+.openPopup{
+    display: block;
+    margin: 10rem auto 0 auto;
+}
+
+.openPopupButton{
+    display: none;
+    visibility: hidden;
+}
+
+#confirmationPage h1{
+    font-size: 2.6rem;
+    font-family: 'RobotoBold';
+}
+
+#confirmationPage p{
+    font-size: 1.5rem;
+}
+
+#confirmationPage button{
+    font-size: 1.5rem;
+    background-color: rgb(85, 10, 197);
+    color:white;
+    padding: 3.6% 6.6%;
+    margin-top: 2rem;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+#confirmationPage button:hover{
+background: linear-gradient(to right, #FF3572, #3C30FF);
+}
